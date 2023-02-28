@@ -98,6 +98,7 @@ div.contenitore-business > div{
     flex-basis:calc(100% / 3);
 }
 
+ /* 3 card */
 .border-solid {
     border: 2px solid rgb(203, 203, 203);
 }
@@ -110,7 +111,7 @@ div.contenitore-business > div{
     text-align: center;
 }
 
-.padding {
+.padding-5 {
     padding: 5px;
 }
 
@@ -118,8 +119,16 @@ div.contenitore-business > div{
     padding-top: 30px;
 }
 
-.padding-bottom {
+.memoria {
+    padding: 10px 0;
+}
+
+.padding-bottom-40 {
     padding-bottom: 40px;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
 }
 
 .width-250 {
@@ -156,4 +165,53 @@ ul {
 
 li {
     margin-top: 18px;
+}
+
+/* section team */
+.section-team {
+    width:45%;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+div.justify-content-space-around h5 {
+    margin-top: 10px;
+}
+
+/* immagine testo trova partner */
+.immagine-partner {
+    height: 350px;
+    width: 450px;
+}
+
+.contenitore-partner { 
+    padding:40px 45px ;
+}
+
+.button-partner {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+    
+}
+
+/* cards */
+.cards {
+    width: 280px;
+    height: 220px;
+    margin-top: 35px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-basis {
+    flex-basis:30%;
+}
+
+.font-size {
+    font-size: 13px;
 }
