@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
+
 header {
     padding: 5px 10px;
     /* position: fixed;
@@ -110,6 +114,18 @@ div.contenitore-business > div{
     padding: 5px;
 }
 
+.padding-30 {
+    padding-top: 30px;
+}
+
+.padding-bottom {
+    padding-bottom: 40px;
+}
+
+.width-250 {
+   width: 250px;
+}
+
 .width {
     width: 80%;
 }
@@ -119,7 +135,7 @@ div.margin-auto  h5,span{
 }
 
 .margin-top-80 {
-margin-top: 80px;
+    margin-top: 80px;
 }
 
 .margin-top-30 {
@@ -130,4 +146,14 @@ margin-top: 80px;
     justify-content: center;
 }
 
+hr {
+    width: 20%;
+}
 
+ul {
+    margin-top: 25px;
+}
+
+li {
+    margin-top: 18px;
+}
