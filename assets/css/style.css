@@ -11,10 +11,11 @@ li {
 
 header {
     padding: 5px 10px;
-    /* position: fixed;
+    position: fixed;
     right: 0;
     top: 0;
-    left: 0; */
+    left: 0;
+    z-index: 3;
 }
 
 .margin-auto {
@@ -273,4 +274,34 @@ section.background-color-becca button {
 
 .width-100 {
     width: 100%;
+}
+
+/* info */
+footer {
+    background-color: rgb(23, 23, 23);
+}
+
+.padding-45 {
+    padding: 55px 0;
+}
+
+.contenitore-info{
+    width: 68%;
+    margin: auto;
+}
+
+div.contenitore-info li {
+    font-size: 13px;
+}
+
+.margin-tot {
+    padding:15px 0 40px 395px ;
+}
+
+div.margin-tot hr {
+    width: 100px;
+}
+
+.padding-rigth-10 {
+    padding-right: 10px;
 }
