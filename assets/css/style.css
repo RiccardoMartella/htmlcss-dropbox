@@ -113,13 +113,8 @@ div.contenitore-business > div{
     text-align: center;
 }
 
-.padding-5 {
-    padding: 5px;
-}
-
-.padding-30 {
-    padding-top: 30px;
-}
+.padding-5 { padding: 5px }
+.padding-30 { padding-top: 30px }
 
 .memoria {
     padding: 10px 0;
@@ -268,5 +263,14 @@ div.justify-content-space-around h5 {
 
 section.background-color-becca button {
     background-color: white;
-    padding: 5px;
+    width: 250px;
+    border: 0;
+}
+
+.contenitore-domande {
+    padding: 25px 0;
+}
+
+.width-100 {
+    width: 100%;
 }
