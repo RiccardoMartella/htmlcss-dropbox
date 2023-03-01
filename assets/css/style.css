@@ -5,10 +5,92 @@
     font-family: 'Nunito', sans-serif;
 }
 
-li {
-    list-style-type: none;
+
+/* setting liste */
+li {list-style-type: none;}
+
+li {margin-top: 18px;}
+
+ul {margin-top: 25px;}
+
+
+/* setting button */
+.button {
+    padding: 5px 10px;
+    border: 0;
 }
 
+
+/* flex setting */
+.flex {display: flex;}
+
+.flex-wrap {flex-wrap: wrap;}
+
+.flex-basis-un-terzo {flex-basis: calc(100% / 3);}
+
+.font-size {font-size: 13px;}
+
+.flex-wrap {flex-wrap: wrap;}
+
+.flex-colum {flex-direction: column;}
+
+.justify-content-center {justify-content: center;}
+
+.justify-content-space-between {justify-content: space-between;}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+/* margin setting */
+.margin-auto {margin: auto;}
+
+.margin-18 {margin: 18px;}
+
+.margin-top-80 {margin-top: 80px;}
+
+.margin-tot {padding:15px 0 40px 395px ;}
+
+.margin-top-45 {margin-top:45px;}
+
+.margin-top-30 {margin-top: 30px;}
+
+.margin-bottom-80 {margin-bottom: 80px;}
+
+
+
+/* padding setting*/
+.padding-70-0 {padding: 70px 0;}
+
+.padding-45 {padding: 55px 0;}
+    
+.padding-rigth-10 {padding-right: 10px;}
+
+.padding-5 { padding: 5px }
+
+.padding-30 { padding-top: 30px }
+
+.padding-bottom-40 {padding-bottom: 40px;}
+
+.padding-bottom-30 {padding-bottom: 30px;}
+
+
+
+/* width */
+.width-100 {width: 100%;}
+
+.width-190 {width: 190px;}
+
+.width {width: 80%;}
+
+
+
+/* background color */
+.background-color-blu {background-color: blue;}
+
+
+
+/* body */
 header {
     padding: 5px 10px;
     position: fixed;
@@ -18,39 +100,20 @@ header {
     z-index: 3;
 }
 
-.margin-auto {
-    margin: auto;
-}
-
 .section-1 {
     background-color:rgb(132, 189, 211);
     width: 100%;
 }
 
-.button {
-    padding: 5px 10px;
-    border: 0;
+footer {
+    background-color: rgb(23, 23, 23);
 }
+/* fine-body */
 
-.background-color-blu {
-    background-color: blue;
-}
 
 /* logo info */
-.flex {
-    display: flex;
-}
-
-.justify-content-space-between {
-    justify-content: space-between;
-}
-
 .align-item-center {
     align-items: center;
-}
-
-.margin-18 {
-    margin: 18px;
 }
 
 /* titolo immagini */
@@ -98,10 +161,7 @@ div.contenitore-business > div{
 }
 
  /* 3 card */
- .flex-space-around {
-    justify-content: space-around;
- }
-
+ 
 .border-solid {
     border: 2px solid rgb(203, 203, 203);
 }
@@ -114,68 +174,21 @@ div.contenitore-business > div{
     text-align: center;
 }
 
-.padding-5 { padding: 5px }
-.padding-30 { padding-top: 30px }
-
 .memoria {
     padding: 10px 0;
-}
-
-.padding-bottom-40 {
-    padding-bottom: 40px;
-}
-
-.padding-bottom-30 {
-    padding-bottom: 30px;
-}
-
-.width-190 {
-   width: 190px;
-}
-
-.width {
-    width: 80%;
 }
 
 div.margin-auto  h5,span{
     margin: 8px 0 ;
 }
 
-.margin-top-80 {
-    margin-top: 80px;
-}
-
-.margin-top-30 {
-    margin-top: 30px;
-}
-
-.margin-bottom-80 {
-    margin-bottom: 80px;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
 hr {
     width: 20%;
-}
-
-ul {
-    margin-top: 25px;
-}
-
-li {
-    margin-top: 18px;
 }
 
 /* section team */
 .section-team {
     width:45%;
-}
-
-.justify-content-space-around{
-    justify-content: space-around;
 }
 
 div.justify-content-space-around h5 {
@@ -196,7 +209,6 @@ div.justify-content-space-around h5 {
     background-color: white;
     color: grey;
     border-color: grey;
-    
 }
 
 /* cards */
@@ -204,22 +216,6 @@ div.justify-content-space-around h5 {
     width: 280px;
     height: 220px;
     margin-top: 35px;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
-.flex-basis-un-terzo {
-    flex-basis: calc(100% / 3);
-}
-
-.font-size {
-    font-size: 13px;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
 }
 
 /* sezione-quadrati */
@@ -245,21 +241,9 @@ div.justify-content-space-around h5 {
     padding: 60px;
 }
 
-.flex-colum {
-    flex-direction: column;
-}
-
-.margin-top-45 {
-    margin-top:45px;
-}
-
 /* Dropbox Business */
 .background-color-becca {
     background-color: rgb(190, 204, 234);
-}
-
-.padding-70-0 {
-    padding: 70px 0;
 }
 
 section.background-color-becca button {
@@ -272,19 +256,7 @@ section.background-color-becca button {
     padding: 25px 0;
 }
 
-.width-100 {
-    width: 100%;
-}
-
 /* info */
-footer {
-    background-color: rgb(23, 23, 23);
-}
-
-.padding-45 {
-    padding: 55px 0;
-}
-
 .contenitore-info{
     width: 68%;
     margin: auto;
@@ -294,14 +266,7 @@ div.contenitore-info li {
     font-size: 13px;
 }
 
-.margin-tot {
-    padding:15px 0 40px 395px ;
-}
-
 div.margin-tot hr {
     width: 100px;
 }
 
-.padding-rigth-10 {
-    padding-right: 10px;
-}
